@@ -53,8 +53,6 @@ def validate_config(config: Dict[str, Any]) -> bool:
     """Validate that required configuration is present"""
     required_keys = [
         'LEXICON_API_URL',
-        'SPOTIFY_CLIENT_ID',
-        'SPOTIFY_CLIENT_SECRET',
         'LASTFM_API_KEY'
     ]
     
